@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mamidi Brahmani — Cybersecurity & Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,300&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">MB</a>
+    <ul class="nav-links">
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about" class="mobile-link">About</a></li>
+    <li><a href="#experience" class="mobile-link">Experience</a></li>
+    <li><a href="#projects" class="mobile-link">Projects</a></li>
+    <li><a href="#skills" class="mobile-link">Skills</a></li>
+    <li><a href="#contact" class="mobile-link">Contact</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-texture"></div>
+  <div class="container hero-layout">
+    <div class="hero-content">
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        <span>Open to opportunities</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-first" id="nameFirst">Mamidi</span>
+        <span class="name-last" id="nameLast">Brahmani</span>
+      </h1>
+      <div class="hero-roles">
+        <span class="role-text" id="roleText"></span><span class="type-cursor">|</span>
+      </div>
+      <p class="hero-bio">
+        Final-year CS undergrad specialising in Cybersecurity at Vignan's Institute, Visakhapatnam. I build web applications that are fast and secure, and I investigate systems when they're not.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View my work</a>
+        <a href="https://github.com/brahmanimamidi" target="_blank" rel="noopener" class="btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.031 1.531 1.031.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="hero-photo-wrapper">
+      <img src="image.png" alt="Mamidi Brahmani" class="hero-photo" />
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>scroll</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <p class="section-eyebrow">Who I am</p>
+        <h2 class="section-heading">Security-minded.<br>Builder by nature.</h2>
+        <p class="about-body">
+          I study how systems break so I can build ones that don't. My coursework in Cybersecurity — spanning forensics, network analysis, and OS internals — sits alongside hands-on web development work with React, TypeScript, and cloud databases.
+        </p>
+        <p class="about-body">
+          Outside coursework, I've interned with the Cyber Crime Department in Visakhapatnam and built AgriCare, an AI agricultural platform serving Indian farmers in Telugu, Hindi, and English.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-num">9.22</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">Projects shipped</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <div class="coursework-card">
+          <h3 class="cw-title">Relevant Coursework</h3>
+          <ul class="cw-list">
+            <li>Data Structures &amp; Algorithms</li>
+            <li>Database Management Systems</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+          </ul>
+        </div>
+        <div class="interests-card">
+          <h3 class="cw-title">Areas of Interest</h3>
+          <div class="interest-grid">
+            <div class="interest-chip">
+              <span class="ic-icon">🔐</span>
+              <span>Cybersecurity &amp; OSINT</span>
+            </div>
+            <div class="interest-chip">
+              <span class="ic-icon">🐧</span>
+              <span>Linux &amp; CTF</span>
+            </div>
+            <div class="interest-chip">
+              <span class="ic-icon">🔍</span>
+              <span>Digital Forensics</span>
+            </div>
+            <div class="interest-chip">
+              <span class="ic-icon">🧩</span>
+              <span>DSA &amp; Problem Solving</span>
+            </div>
+            <div class="interest-chip">
+              <span class="ic-icon">🚀</span>
+              <span>Real-world Products</span>
+            </div>
+            <div class="interest-chip">
+              <span class="ic-icon">⚡</span>
+              <span>Hackathons</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Where I've been</p>
+      <h2 class="section-heading">Experience</h2>
+    </div>
+    <div class="exp-timeline reveal">
+      <div class="exp-connector">
+        <div class="exp-node"></div>
+        <div class="exp-line-v"></div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-header">
+          <div>
+            <p class="exp-org">Cyber Crime Department, Visakhapatnam</p>
+            <h3 class="exp-role">Cybersecurity Intern</h3>
+          </div>
+          <div class="exp-period">May 2026 – June 2026</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>
+            <strong>Cyber Crime Investigation</strong> — Practical exposure to investigation workflows and digital forensic methodologies used in active cases.
+          </li>
+          <li>
+            <strong>Computer Forensics</strong> — Hands-on understanding of forensic procedures, chain of custody, and digital evidence handling.
+          </li>
+          <li>
+            <strong>Network Analysis</strong> — Applied packet-level and traffic analysis techniques as part of live investigation activities.
+          </li>
+          <li>
+            <strong>Digital Evidence Preservation</strong> — Learned industry-standard practices for preserving and documenting digital evidence for legal proceedings.
+          </li>
+        </ul>
+        <div class="exp-tags">
+          <span class="etag">Digital Forensics</span>
+          <span class="etag">Network Analysis</span>
+          <span class="etag">OSINT</span>
+          <span class="etag">Evidence Handling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Things I've built</p>
+      <h2 class="section-heading">Projects</h2>
+    </div>
+
+    <div class="project-card reveal" id="agricare">
+      <div class="project-card-inner">
+        <div class="project-meta">
+          <div class="project-number">01</div>
+          <div class="project-tags-row">
+            <span class="ptag ptag-featured">Featured</span>
+            <span class="ptag">Web App</span>
+            <span class="ptag">AI</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">AgriCare</h3>
+          <p class="project-subtitle">Agricultural Advisory Platform for Indian Farmers</p>
+          <p class="project-desc">
+            A full-stack web application that bridges the gap between modern agricultural science and Indian farming communities. AgriCare provides AI-driven crop recommendations, real-time weather analysis, and a multilingual chatbot — making precision farming accessible regardless of literacy level or language.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item">
+              <div class="ph-icon">🌾</div>
+              <div>
+                <div class="ph-title">Crop Intelligence</div>
+                <div class="ph-desc">Soil parameter analysis → crop suitability recommendations</div>
+              </div>
+            </div>
+            <div class="ph-item">
+              <div class="ph-icon">🌦️</div>
+              <div>
+                <div class="ph-title">Weather Integration</div>
+                <div class="ph-desc">Location-based forecasts via OpenWeather API</div>
+              </div>
+            </div>
+            <div class="ph-item">
+              <div class="ph-icon">🔬</div>
+              <div>
+                <div class="ph-title">Disease Detection</div>
+                <div class="ph-desc">Identify crop diseases with remedy recommendations</div>
+              </div>
+            </div>
+            <div class="ph-item">
+              <div class="ph-icon">🗣️</div>
+              <div>
+                <div class="ph-title">Multilingual Voice Bot</div>
+                <div class="ph-desc">Telugu, Hindi &amp; English with voice interaction</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">React.js</span>
+            <span class="stack-tag">TypeScript</span>
+            <span class="stack-tag">Tailwind CSS</span>
+            <span class="stack-tag">Supabase</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">OpenWeather API</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card-glow"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">What I work with</p>
+      <h2 class="section-heading">Technical Skills</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="sg-header">
+          <div class="sg-icon">⌨️</div>
+          <h3 class="sg-title">Languages</h3>
+        </div>
+        <div class="sg-bars">
+          <div class="sb-item">
+            <div class="sb-label"><span>C / C++</span><span class="sb-level">Proficient</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:88%"></div></div>
+          </div>
+          <div class="sb-item">
+            <div class="sb-label"><span>JavaScript / TypeScript</span><span class="sb-level">Proficient</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:82%"></div></div>
+          </div>
+          <div class="sb-item">
+            <div class="sb-label"><span>Python</span><span class="sb-level">Familiar</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:62%"></div></div>
+          </div>
+          <div class="sb-item">
+            <div class="sb-label"><span>Java</span><span class="sb-level">Familiar</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:55%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="sg-header">
+          <div class="sg-icon">🌐</div>
+          <h3 class="sg-title">Web Development</h3>
+        </div>
+        <div class="sg-pills">
+          <span class="spill">HTML</span>
+          <span class="spill">CSS</span>
+          <span class="spill spill-accent">React.js</span>
+          <span class="spill spill-accent">TypeScript</span>
+          <span class="spill">Tailwind CSS</span>
+          <span class="spill">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="sg-header">
+          <div class="sg-icon">🔐</div>
+          <h3 class="sg-title">Cybersecurity</h3>
+        </div>
+        <div class="sg-pills">
+          <span class="spill spill-sec">Linux</span>
+          <span class="spill spill-sec">OSINT</span>
+          <span class="spill spill-sec">CTF Practice</span>
+          <span class="spill spill-sec">Digital Forensics</span>
+          <span class="spill spill-sec">Network Analysis</span>
+          <span class="spill spill-sec">Cyber Investigation</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="sg-header">
+          <div class="sg-icon">🗄️</div>
+          <h3 class="sg-title">Databases &amp; Tools</h3>
+        </div>
+        <div class="sg-pills">
+          <span class="spill">MySQL</span>
+          <span class="spill">PostgreSQL</span>
+          <span class="spill spill-accent">Supabase</span>
+          <span class="spill">Git</span>
+          <span class="spill">GitHub</span>
+          <span class="spill">VS Code</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Credentials</p>
+      <h2 class="section-heading">Certifications</h2>
+    </div>
+    <div class="certs-row">
+      <div class="cert-card reveal">
+        <div class="cert-logo cert-logo-cisco">
+          <svg width="32" height="32" viewBox="0 0 100 100" fill="none"><rect width="100" height="100" rx="16" fill="#1BA0D7"/><text x="50" y="65" font-size="40" text-anchor="middle" fill="white" font-family="sans-serif" font-weight="bold">C</text></svg>
+        </div>
+        <div class="cert-info">
+          <div class="cert-issuer">Cisco Networking Academy</div>
+          <div class="cert-name">HTML, CSS &amp; JavaScript</div>
+        </div>
+        <div class="cert-badge">Verified</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo cert-logo-ibm">
+          <svg width="32" height="32" viewBox="0 0 100 100" fill="none"><rect width="100" height="100" rx="16" fill="#1F70C1"/><text x="50" y="65" font-size="36" text-anchor="middle" fill="white" font-family="sans-serif" font-weight="bold">IBM</text></svg>
+        </div>
+        <div class="cert-info">
+          <div class="cert-issuer">IBM</div>
+          <div class="cert-name">Artificial Intelligence Fundamentals</div>
+        </div>
+        <div class="cert-badge">Verified</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrapper reveal">
+      <div class="contact-left">
+        <p class="section-eyebrow">Get in touch</p>
+        <h2 class="contact-heading">Let's work<br>together.</h2>
+        <p class="contact-sub">
+          I'm actively looking for internships, collaborations, and projects where security meets software. Drop a message — I reply fast.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:mamidibrahmani@gmail.com" class="clink">
+            <div class="clink-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <div class="clink-label">Email</div>
+              <div class="clink-value">mamidibrahmani@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+919533339369" class="clink">
+            <div class="clink-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.11 6.11l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="clink-label">Phone</div>
+              <div class="clink-value">+91-9533339369</div>
+            </div>
+          </a>
+          <a href="https://github.com/brahmanimamidi" target="_blank" rel="noopener" class="clink">
+            <div class="clink-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.031 1.531 1.031.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </div>
+            <div>
+              <div class="clink-label">GitHub</div>
+              <div class="clink-value">brahmanimamidi</div>
+            </div>
+          </a>
+          <div class="clink no-hover">
+            <div class="clink-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="clink-label">Location</div>
+              <div class="clink-value">Visakhapatnam, India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="soft-skills-panel">
+          <h3 class="ssp-title">Soft Skills</h3>
+          <div class="ssp-items">
+            <div class="ssp-item">
+              <div class="ssp-name">Leadership</div>
+              <div class="ssp-track"><div class="ssp-fill" data-pct="90"></div></div>
+            </div>
+            <div class="ssp-item">
+              <div class="ssp-name">Problem Solving</div>
+              <div class="ssp-track"><div class="ssp-fill" data-pct="95"></div></div>
+            </div>
+            <div class="ssp-item">
+              <div class="ssp-name">Time Management</div>
+              <div class="ssp-track"><div class="ssp-fill" data-pct="88"></div></div>
+            </div>
+          </div>
+          <div class="ssp-divider"></div>
+          <div class="availability-badge">
+            <span class="avail-dot"></span>
+            Available for internships &amp; projects
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-name">Mamidi Brahmani</div>
+    <div class="footer-copy">Designed &amp; built with intention · 2025</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
